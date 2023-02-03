@@ -1,7 +1,9 @@
 #include "main.h"
 
 void test1(){
-    
+    Converter conv;
+    int usdbrl = conv.get("usdbrl");
+    assert(usdbrl == 5.5);
 }
 
 void start_testing(){
@@ -9,8 +11,8 @@ void start_testing(){
 }
 
 int main (){
-    Converter conv;
-    conv.print();
+    start_testing();
 
+    std::cout << "passed all tests!" << std::endl;
     return 0;
 }

@@ -1,5 +1,10 @@
 #include "converter.h"
 
-void Converter::print(){
-    std::cout << "from inside the class" << std::endl;
+Converter::Converter(){
+    _pairs["usdbrl"] = 5.5;
 }
+
+float Converter::get(std::string currency_pair){
+    return _pairs[currency_pair];
+}
+
