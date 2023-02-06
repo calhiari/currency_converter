@@ -2,7 +2,7 @@
 
 void test1(){
     Converter conv;
-    int usdbrl = conv.get("usdbrl");
+    float usdbrl = conv.get("usdbrl");
     assert(usdbrl == 5.5);
 }
 
