@@ -2,6 +2,8 @@
 #include "iostream"
 #include "string"
 #include "map"
+#include "sstream"
+#include "fstream"
 
 class Converter{
     public:

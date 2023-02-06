@@ -2,8 +2,9 @@
 
 void test1(){
     Converter conv;
-    float usdbrl = conv.get("usdbrl");
-    assert(usdbrl == 5.5);
+    float nzdusd = conv.get("NZDUSD");
+    printf("\nThis is the value of nzdusd %f\n", nzdusd);
+    assert(nzdusd == 0.6295);
 }
 
 void start_testing(){
